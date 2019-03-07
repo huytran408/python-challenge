@@ -1,7 +1,8 @@
 import pandas
 import csv
+import os
 
-file = "Resources/election_data.csv"
+file = os.path.join("Resources/election_data.csv")
 
 poll = {}
 
